@@ -1,48 +1,47 @@
 {
-    "title": {
+  "title": {
+    "media": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png",
+      "caption": "This is a sample timeline",
+      "credit": "Image by Wikimedia"
+    },
+    "text": {
+      "headline": "Test Timeline",
+      "text": "This is a simple test timeline created using JSON."
+    }
+  },
+  "events": [
+    {
+      "start_date": {
+        "year": "2022",
+        "month": "1",
+        "day": "1"
+      },
       "media": {
-        "url": "https://www.example.com/image.jpg",
-        "caption": "This is a sample timeline",
-        "credit": "Image by Example"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png",
+        "caption": "Image for Event 1",
+        "credit": "Image by Wikimedia"
       },
       "text": {
-        "headline": "Test Timeline",
-        "text": "This is a simple test timeline created using JSON."
+        "headline": "Event 1",
+        "text": "Description for the first event."
       }
     },
-    "events": [
-      {
-        "start_date": {
-          "year": "2022",
-          "month": "1",
-          "day": "1"
-        },
-        "media": {
-          "url": "https://www.example.com/image1.jpg",
-          "caption": "Image for Event 1",
-          "credit": "Image by Example"
-        },
-        "text": {
-          "headline": "Event 1",
-          "text": "Description for the first event."
-        }
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "6",
+        "day": "15"
       },
-      {
-        "start_date": {
-          "year": "2023",
-          "month": "6",
-          "day": "15"
-        },
-        "media": {
-          "url": "https://www.example.com/image2.jpg",
-          "caption": "Image for Event 2",
-          "credit": "Image by Example"
-        },
-        "text": {
-          "headline": "Event 2",
-          "text": "Description for the second event."
-        }
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png",
+        "caption": "Image for Event 2",
+        "credit": "Image by Wikimedia"
+      },
+      "text": {
+        "headline": "Event 2",
+        "text": "Description for the second event."
       }
-    ]
-  }
-  
+    }
+  ]
+}
